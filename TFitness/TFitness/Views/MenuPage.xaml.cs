@@ -16,6 +16,7 @@ namespace TFitness.Views
         {
             InitializeComponent();
 
+            // Create our menu items here. This way we can navigate through the individual pages.
             menuItems = new List<HomeMenuItem>
             {
                 new HomeMenuItem {Id = MenuItemType.Home, Title="Home" },

@@ -9,6 +9,7 @@ using Android.OS;
 
 namespace TFitness.Droid
 {
+    // We set up the main activity here so that the app knows to run this code on android devices and set up the appropriate theme/layouts.
     [Activity(Label = "TFitness", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {

@@ -22,6 +22,7 @@ namespace TFitness.Views
 
         public async Task NavigateFromMenu(int id)
         {
+            // switch between menu pages here.
             if (!MenuPages.ContainsKey(id))
             {
                 switch (id)
